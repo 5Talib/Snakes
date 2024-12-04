@@ -13,6 +13,11 @@ h1 {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+.instructions{
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+  color: rgb(153, 252, 4);
+}
 .board {
   margin-left: 0.5%;
   border: 3px solid rgba(34, 26, 30, 0.977);

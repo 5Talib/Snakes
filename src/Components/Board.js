@@ -191,6 +191,7 @@ export default function Board() {
   };
 
   return (
+    <>
     <div className="container">
       <h1 className="score">SCORE: {score}</h1>
       <div className="board">
@@ -209,6 +210,8 @@ export default function Board() {
         ))}
       </div>
     </div>
+    <div className = "instructions"> USE 'A', 'S', 'D', 'W' TO PLAY</div>
+    </>
   );
 }
 
